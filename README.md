@@ -26,7 +26,7 @@ I've included a map style configuration that takes out a lot of distractions fro
 
 ### Solution
 
-- This solution shows all sites and their details in Indiana and Kentucky.
+- This solution shows all sites located in Indiana and Kentucky and any details available from USGS.
 - Indiana and Kentucky sites include Gage Height and Streamflow
 - Neither Indiana or Kentucky had Water Temperature data available through the network call.
 
