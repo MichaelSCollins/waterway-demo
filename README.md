@@ -16,8 +16,6 @@ In order to facilitate this transition from roads to waterways, we need to have 
    - Streamflow (cu ft/sec)
    - Water temperature (F)
 
-I've included a map style configuration that takes out a lot of distractions from the surrounding areas, as well as an interface for the expected response structure from USGS.
-
 ### Useful documentation:
 
 [Google Maps Angular Component](https://github.com/angular/components/tree/master/src/google-maps)
