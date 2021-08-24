@@ -1,12 +1,7 @@
-### Solution
-
-- This solution shows all sites and their details in Indiana and Kentucky.
-- Indiana and Kentucky sites include Gage Height and Streamflow
-- Neither Indiana or Kentucky had Water Temperature data available through the network call.
 
 ![image](https://user-images.githubusercontent.com/12767561/114125825-37f95b00-98c5-11eb-8681-f749709b19c5.png)
 
-# Kentuckiana Waterways
+# Kentuckiana Waterways (Problem)
 
 This bare bones project is the starting point for a hypothetical scenario in which Papa John's has decided to begin delivering pizzas via the various streams and rivers found around the Kentuckiana area.
 In order to facilitate this transition from roads to waterways, we need to have a dashboard that presents data about the sites that the United States Geological Survey agency actively reports on.
@@ -29,11 +24,9 @@ I've included a map style configuration that takes out a lot of distractions fro
 
 [USGS IV REST API Testing](https://waterservices.usgs.gov/rest/IV-Test-Tool.html)
 
-### Instructions to submit
+### Solution
 
-1. Fork repository once invited (remember to keep it private)
-2. Work through the above objectives
-3. Push all changes to the default branch
-4. Once you feel it is ready for review, add me as a collaborator to your forked copy
-# waterway-demo
-# waterway-demo
+- This solution shows all sites and their details in Indiana and Kentucky.
+- Indiana and Kentucky sites include Gage Height and Streamflow
+- Neither Indiana or Kentucky had Water Temperature data available through the network call.
+
