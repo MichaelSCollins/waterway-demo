@@ -3,7 +3,7 @@
 
 # Kentuckiana Waterways (Problem)
 
-This bare bones project is the starting point for a hypothetical scenario in which Papa John's has decided to begin delivering pizzas via the various streams and rivers found around the Kentuckiana area.
+This bare bones project is the starting point for a hypothetical scenario in which a pizza company has decided to begin delivering pizzas via the various streams and rivers found around the Kentuckiana area.
 In order to facilitate this transition from roads to waterways, we need to have a dashboard that presents data about the sites that the United States Geological Survey agency actively reports on.
 
 ### Objectives
