@@ -1,0 +1,33 @@
+<app-loading *ngIf="loading">
+</app-loading>
+<google-map
+  *ngIf="!loading"
+  id="map"
+  height="100%"
+  width="100%"
+  [zoom]="4"
+  [center]="center"
+  [options]="mapOptions"
+> 
+  <!-- Water Site Markers -->
+  <map-marker #marker="mapMarker"
+              *ngFor="let markerData of mapData.markers"
+              [position]='markerData.position'
+              [title]='markerData.title'
+              [options]="markerOptions"
+              (mapClick)="openInfoWindow(marker, markerData)"
+              ></map-marker>
+
+  <!-- Water Site Info Box -->
+  <map-info-window>
+    <div class="info" *ngIf="selectedSiteName">
+      <div class="info-header">
+        <b>Site Name: </b>{{selectedSiteName}} <br>
+        <b>Site Code: </b>{{selectedSiteCode}}
+      </div>
+      <div class="info-content">
+       <div *ngFor="let prop of mapData.infoBoxProperties.get(selectedSiteCode)"><b>{{prop.name}}: </b>{{prop.value}}</div>
+      </div>
+     </div>
+  </map-info-window>
+</google-map>
